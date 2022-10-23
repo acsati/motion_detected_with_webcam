@@ -1,0 +1,11 @@
+[Unit]
+Description= Keeps newest ten files
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=python3 /home/pi/Desktop/newest_ten_files.py
+
+[Install]
+WantedBy=multi-user.target

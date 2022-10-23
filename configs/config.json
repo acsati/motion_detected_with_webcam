@@ -1,0 +1,6 @@
+{
+    "path" : "/home/pi/Desktop/camera/",
+    "log_path" : "/var/log/motion/motion.log",
+    "slack_webhook": "https://hooks.slack.com/services/{:your_hook}"
+}
+

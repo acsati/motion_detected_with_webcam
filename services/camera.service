@@ -1,0 +1,11 @@
+[Unit]
+Description=Sends mail for to notify
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=python3 /home/pi/Desktop/motion_detection.py
+
+[Install]
+WantedBy=multi-user.target
